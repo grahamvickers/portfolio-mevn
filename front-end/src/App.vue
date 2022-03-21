@@ -1,5 +1,5 @@
 <template>
-    <main id="main">
+    <main >
         <h1 class="hidden">Graham Vickers Portfolio Website</h1>
                <header>
             <img src="/static/logo_v2.svg" alt="Graham Vickers Developments Logo" id="logo">
