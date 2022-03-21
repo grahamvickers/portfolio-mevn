@@ -18,10 +18,10 @@ main{
 h2{
     color: $heading;
     font-family: poppins, sans-serif;
-    font-size: 40px;
+    font-size: 36px;
     font-weight: 700;
     font-style: normal;
-    line-height: 60px;
+    line-height: 52px;
 }
 
 .darker{
@@ -44,7 +44,7 @@ h6{
 p{
     color: $copy;
     font-family: poppins, sans-serif;
-    font-size: 18px;
+    font-size: 14px;
     font-weight: 400;
     font-style: normal;
     line-height: 28px;
@@ -69,7 +69,6 @@ button{
 }
 
 // header and nav styles
-
 header{
     display: flex;
     flex-direction: row;
@@ -189,12 +188,30 @@ select{
         margin-bottom: 20px;
 }
 
+// landing content
+#landing{
+    h2:first-child{
+        margin-top: 10px;
+    }
+}
+
 
 @media screen and (min-width: 760px) {
-    
+    #landing{
+        margin-top: 20vh;
+        h2{
+            font-size: 54px;
+        }
+    }
 }
 
 @media screen and (min-width: 1200px) {
+    #landing{
+        h2{
+            font-size: 64px;
+            line-height: 92px;
+        }
+    }
     #navCon{
         display: block;
     }
