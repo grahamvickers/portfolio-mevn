@@ -3,21 +3,21 @@ var path = require('path'); //had to add
 var router = express.Router();
 
 var mongoose = require('mongoose');
-var Student = require('../models/Student.js');
+var Project = require('../models/Project.js');
 
-//routes api/students, api/student/:id
+//routes api/projects, api/project/:id
 
-router.get('/api/students', function(req, res, next){
-    Student.find(function(err, students){
+router.get('/api/projects', function(req, res, next){
+    Project.find(function(err, projects){
         if (err) return next(err);
-        res.json(students);
+        res.json(projects);
     });
 });
 
-router.get('/api/student/:id', function(req, res, next){
-    Student.findById(req.params.id, function(err, student){
+router.get('/api/project/:id', function(req, res, next){
+    Project.findById(req.params.id, function(err, project){
         if(err) return next(err);
-        res.json(student);
+        res.json(project);
     });
 });
 

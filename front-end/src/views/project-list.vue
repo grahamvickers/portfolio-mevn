@@ -1,6 +1,6 @@
 <template>
     <div>
-        <section>
+        <section id="landing">
             <h2 class="hidden">Landing Content</h2>
             <div>
                 <h6>Hi, my name is</h6>

@@ -3,27 +3,27 @@
         "name": "Flora.io",
         "bio": "Plant Monitoring app",
         "tools": "Laravel, Express, Vue.js, Node.js, Sass, VS Code, FirebaseDB, Arduino",
-        "description": "",
-        "logo": "",
-        "mockup": "",
+        "description": "This was made in conjunction with my Interactive Media Specialist program where I worked in a group of 3 as a full-stack developer and project manager. The success of the project was executed by setting clear goals and having open communication about problems or enhancements. My main contributions were creating the branding, layouts, managing the project and building out sections of the GUI.",
+        "logo": "static/flora_logo.svg",
+        "mockup": "static/flora_mockup.svg",
         "github": "https://github.com/grahamvickers/arduino_team_build"
     },
     {
         "name": "Get Smokin'",
         "bio": "Recipe and Blog website",
         "tools": "Mongoose, Express, Vue.js, Node.js, Sass, VS Code, Adobe XD",
-        "description": "",
-        "logo": "",
-        "mockup": "",
+        "description": "lets update this later",
+        "logo": "static/smokin_logo.svg",
+        "mockup": "static/smokin_mockup.svg",
         "github": "https://github.com/grahamvickers/get_smokin"
     },
     {
         "name": "Meta World",
         "bio": "Live Crypto Market Monitoring app",
         "tools": "Express, Vue.js, Node.js, Sass, CoinGecko API, VS Code, Adobe XD",
-        "description": "",
-        "logo": "",
-        "mockup": "",
+        "description": "lets update this later",
+        "logo": "static/meta_logo.svg",
+        "mockup": "static/meta_mockup.svg",
         "github": "https://github.com/grahamvickers/crypto-market-api"
     }
 ]
