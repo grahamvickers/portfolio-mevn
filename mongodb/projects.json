@@ -1,0 +1,29 @@
+[
+    {
+        "name": "Flora.io",
+        "bio": "Plant Monitoring app",
+        "tools": "Laravel, Express, Vue.js, Node.js, Sass, VS Code, FirebaseDB, Arduino",
+        "description": "",
+        "logo": "",
+        "mockup": "",
+        "github": "https://github.com/grahamvickers/arduino_team_build"
+    },
+    {
+        "name": "Get Smokin'",
+        "bio": "Recipe and Blog website",
+        "tools": "Mongoose, Express, Vue.js, Node.js, Sass, VS Code, Adobe XD",
+        "description": "",
+        "logo": "",
+        "mockup": "",
+        "github": "https://github.com/grahamvickers/get_smokin"
+    },
+    {
+        "name": "Meta World",
+        "bio": "Live Crypto Market Monitoring app",
+        "tools": "Express, Vue.js, Node.js, Sass, CoinGecko API, VS Code, Adobe XD",
+        "description": "",
+        "logo": "",
+        "mockup": "",
+        "github": "https://github.com/grahamvickers/crypto-market-api"
+    }
+]

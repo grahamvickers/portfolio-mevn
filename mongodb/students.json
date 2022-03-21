@@ -1,0 +1,31 @@
+[{
+	"fname": "Sue",
+	"lname": "Smith",
+	"program": "IPD",
+	"email": "fake@gmail.com",
+	"image": "static/sue.jpg",
+	"courses": [{
+		"title": "MMED",
+		"number": "1006"
+	}]
+}, {
+	"fname": "Randy",
+	"lname": "Jones",
+	"program": "IPD",
+	"email": "fake@gmail.com",
+	"image": "static/randy.jpg",
+	"courses": [{
+		"title": "MMED",
+		"number": "1006"
+	}]
+}, {
+	"fname": "Peter",
+	"lname": "Petrelli",
+	"program": "IMS",
+	"email": "pete@gmail.com",
+	"image": "static/peter.jpg",
+	"courses": [{
+		"title": "IMS",
+		"number": "6009"
+	}]
+}]
