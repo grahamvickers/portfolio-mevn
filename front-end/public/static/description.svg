@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="10" height="15" viewBox="0 0 10 15">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+      }
+
+      .cls-2, .cls-3 {
+        stroke: none;
+      }
+
+      .cls-3 {
+        fill: #64feda;
+      }
+    </style>
+  </defs>
+  <g id="description" transform="translate(-30 -1669)">
+    <g id="Polygon_5" data-name="Polygon 5" class="cls-1" transform="translate(40 1669) rotate(90)">
+      <path class="cls-2" d="M7.5,0,15,10H0Z"/>
+      <path class="cls-3" d="M 7.5 1.666666984558105 L 2 9 L 13 9 L 7.5 1.666666984558105 M 7.5 0 L 15 10 L 0 10 L 7.5 0 Z"/>
+    </g>
+  </g>
+</svg>
