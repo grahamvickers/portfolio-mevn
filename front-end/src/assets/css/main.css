@@ -16,6 +16,32 @@ h2 {
   line-height: 52px;
 }
 
+h3 {
+  color: #ccd6f5;
+  font-family: poppins, sans-serif;
+  font-size: 26px;
+  font-weight: 600;
+  font-style: normal;
+  line-height: 28px;
+}
+
+h4 {
+  color: #ccd6f5;
+  font-family: poppins, sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  font-style: normal;
+  line-height: 28px;
+}
+
+h5 {
+  color: #8892b0;
+  font-family: roboto-mono, monospace;
+  font-size: 16px;
+  font-weight: 400;
+  font-style: normal;
+}
+
 .darker {
   color: #8892b0;
 }
@@ -41,13 +67,17 @@ p {
   line-height: 28px;
 }
 
+.container {
+  margin-bottom: 80px;
+}
+
 button {
   padding: 10px 30px;
   background-color: transparent;
   border: 2px solid #64ffda;
   border-radius: 5px;
   color: #64ffda;
-  font-family: roboto-mono, monospace;
+  font-family: poppins, sans-serif;
   font-size: 14px;
   font-weight: 400;
   font-style: normal;
@@ -228,8 +258,7 @@ select {
   margin-bottom: 40px;
 }
 
-.secHeading h2 {
-  font-size: 26px;
+.secHeading h3 {
   min-width: 200px;
   margin-right: 30px;
 }
@@ -239,6 +268,109 @@ select {
   background-color: #8892b0;
   height: 1px;
   border: none;
+}
+
+#technologiesCon {
+  columns: 2;
+  -webkit-columns: 2;
+  -moz-columns: 2;
+}
+
+.technology {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 15px;
+}
+
+.technology img {
+  margin-right: 10px;
+}
+
+#headshot {
+  margin-left: 10%;
+}
+
+.programDesc {
+  margin-bottom: 40px;
+}
+
+.programDesc h4, .programDesc h5 {
+  padding-bottom: 10px;
+}
+
+.edDescription {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+  margin-top: 10px;
+}
+
+.edDescription span {
+  margin-right: 10px;
+}
+
+.thinner {
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.project {
+  margin-bottom: 40px;
+  padding: 20px;
+  background-color: #233554;
+}
+
+.project img {
+  max-width: 328px;
+  max-height: 70px;
+  margin-bottom: 20px;
+}
+
+.project h4 {
+  margin-bottom: 10px;
+}
+
+.project h5 {
+  margin-bottom: 40px;
+}
+
+.routerLink {
+  padding: 10px 30px;
+  background-color: transparent;
+  border: 2px solid #64ffda;
+  border-radius: 5px;
+  color: #64ffda;
+  font-family: poppins, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  font-style: normal;
+  margin-bottom: 30px;
+  text-decoration: none;
+  -webkit-transition: ease-in-out .2s;
+  transition: ease-in-out .2s;
+}
+
+.routerLink:hover {
+  cursor: pointer;
+}
+
+.routerCon {
+  margin-bottom: 15px;
 }
 
 @media screen and (min-width: 760px) {
@@ -262,8 +394,7 @@ select {
         -ms-flex-align: center;
             align-items: center;
   }
-  .secHeading h2 {
-    font-size: 26px;
+  .secHeading h3 {
     min-width: 300px;
     margin-right: 30px;
   }
@@ -272,6 +403,23 @@ select {
     background-color: #8892b0;
     height: 1px;
     border: none;
+  }
+}
+
+@media screen and (min-width: 960px) {
+  #aboutCon {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  #aboutCon #headshot {
+    padding: 30px;
+    height: 376px !important;
+    width: 345px !important;
   }
 }
 
@@ -305,6 +453,41 @@ select {
     background: #BF5630;
     color: #E4E4E4 !important;
     padding: 5px;
+  }
+  #programCon {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  #programCon .programDesc {
+    width: 30%;
+  }
+  #projectCon {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  #projectCon .project {
+    width: 30% !important;
+    max-width: 350px;
+  }
+  #projectCon .project:nth-child(even) {
+    margin-right: 20px;
+    margin-left: 20px;
   }
 }
 /*# sourceMappingURL=main.css.map */

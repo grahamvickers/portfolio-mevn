@@ -35,7 +35,6 @@ services:
     image: panbanglanfeng/fanshawe-ims:mevn_frontend
     volumes:
       - ./front-end:/usr/src/app
-      - /usr/src/app/node_modules
     ports:
       - ${FE_PORT}:8080
     environment:
@@ -48,7 +47,6 @@ services:
       - mongo
     volumes:
       - ./back-end:/usr/src/app
-      - /usr/src/app/node_modules
     ports:
       - ${BE_PORT}:3000
     # entrypoint: ["pm2", "start", "./bin/www", "--watch"]

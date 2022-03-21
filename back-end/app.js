@@ -1,23 +1,21 @@
 var express = require('express');
 var path = require('path');
-//var favicon = require('serve-favicon');
+var favicon = require('serve-favicon');
 var logger = require('morgan');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
+var passport = require('passport');
+
+var LocalStrategy = require('passport-local').Strategy;
 
 //create routes in one file
 var routes = require('./routes/routes');
-
 
 //Need to add mongoose DB info
 var mongoose = require('mongoose'),
 mongoConnectURL = process.env.MONGO_CONNECT_URL || 'mongodb://localhost/grahamPortfolioDB';
 //mongoConnectURL = 'mongodb://root:example@mongo/test';
-mongoose.connect(mongoConnectURL, {
-  seNewUrlParser: true,
-  useUnifiedTopology: true,
-  useFindAndModify: true,
-}, function(err) {
+mongoose.connect(mongoConnectURL, function(err) {
     if(err) {
         console.log('connection error', err);
     } else {
