@@ -12,6 +12,8 @@
                 <button>Checkout my work!</button>
             </div>
         </section>
+
+    
     </div>
 </template>
 
