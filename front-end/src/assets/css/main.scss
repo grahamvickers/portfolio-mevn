@@ -414,7 +414,7 @@ select{
     main{
         max-width: 1400px;
         margin: 0 auto;
-        padding: 0px 160px;
+        padding: 0px 100px;
     }
     body{
         max-width: 1600px;
@@ -532,7 +532,7 @@ select{
         justify-content: space-between;
         .project{
             width: 260px;
-            max-width: 350px;
+            // max-width: 350px;
             img{
                 max-width: 260px;
             }
@@ -543,11 +543,23 @@ select{
 @media screen and (min-width: 1800px) {
     #socialBar{
         width: 100vw;
-        right: 38%;
+        right: 42%;
     }
     
     #emailBar{
         width: 100vw;
-        left: 38%;
+        left: 42%;
+    }
+    #projectCon{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        .project{
+            width: 360px;
+            // max-width: 350px;
+            img{
+                max-width: 260px;
+            }
+        } 
     }
 }
