@@ -462,7 +462,7 @@ select {
   main {
     max-width: 1400px;
     margin: 0 auto;
-    padding: 0px 160px;
+    padding: 0px 100px;
   }
   body {
     max-width: 1600px;
@@ -607,7 +607,6 @@ select {
   }
   #projectCon .project {
     width: 260px;
-    max-width: 350px;
   }
   #projectCon .project img {
     max-width: 260px;
@@ -617,11 +616,29 @@ select {
 @media screen and (min-width: 1800px) {
   #socialBar {
     width: 100vw;
-    right: 38%;
+    right: 42%;
   }
   #emailBar {
     width: 100vw;
-    left: 38%;
+    left: 42%;
+  }
+  #projectCon {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  #projectCon .project {
+    width: 360px;
+  }
+  #projectCon .project img {
+    max-width: 260px;
   }
 }
 /*# sourceMappingURL=main.css.map */
