@@ -15,7 +15,6 @@ export default {
     };
   },
   created() {
-    //we can grab id from url, then use it to make a call to the API to grab planet information
     var vm = this;
     let id = this.$route.params.id;
     axios
@@ -27,9 +26,4 @@ export default {
   }
 };
 
-//use to get id from route this.$route.params.id
 </script>
-
-<style scoped>
-
-</style>

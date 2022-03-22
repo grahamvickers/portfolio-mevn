@@ -92,7 +92,7 @@
           <h4>{{project.name}}</h4>
           <h4 class="thinner">{{project.bio}}</h4>
           <h5>{{project.tools}}</h5>
-          <div class="routerCon"><router-link :to="`/${project._id}`" class="routerLink"> Read More</router-link></div>
+          <div class="routerCon"><router-link :to="`/projects/${project._id}`" class="routerLink"> Read More</router-link></div>
         </div>
       </div>
     </section>
