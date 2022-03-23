@@ -16,10 +16,10 @@
         </div>
         <div>
           <p>{{project.description}}</p>
-          <a target="_blank" :href="`${project.github}`" class="githubBtn"><span><img src="static/github_mint.svg" alt="Github Project Link icon"></span>View on Github</a>
+          <a target="_blank" :href="`${project.github}`" class="githubBtn"><span><img src="static/github_mint.svg" alt="Github Project Link icon" id="githubLogo"></span>View on Github</a>
         </div>
       </div>
-      <img :src="`${project.mockup}`" alt="Project IPhone XR Mockup">
+      <img :src="`${project.mockup}`" alt="Project IPhone XR Mockup" id="mockup">
       
       
         
@@ -56,18 +56,28 @@ export default {
   max-width: 260px;
   margin-bottom: 30px;
 }
-h2,h3{
+h2,h3,h5{
   padding-bottom: 10px;
 }
 section{
   margin-bottom: 80px;
+  #mockup{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+  }
 }
+
 
 @media screen and (min-width: 1200px) {
   section{
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
     padding-bottom: 160px;
+    img{
+      padding-left: 20px;
+    }
   }
 }
 </style>

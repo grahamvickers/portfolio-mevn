@@ -68,6 +68,10 @@ h5{
     font-style: normal;
 }
 
+a{
+    text-decoration: none;
+}
+
 .darker{
     color: $copy;
 }
@@ -122,8 +126,10 @@ button{
     font-style: normal;
     margin-top: 30px;
     transition: .2s;
+    text-decoration: none;
     &:hover{
         border: 2px solid #a8b2d1;
+        color: $copy;
     }
 }
 
@@ -271,6 +277,9 @@ select{
         margin-bottom: 10px;
     }
     margin-bottom: 100px;
+    p{
+        margin-bottom: 30px;
+    }    
 }
 
 // about content 
@@ -398,9 +407,19 @@ select{
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    width: 150px;
+    width: 160px;
+    #githubLogo{
+        padding-left: 0px !important;
+    }
     &:hover{
         cursor: pointer;
+    }
+}
+
+#contact{
+    p{
+        margin-top: 20px;
+        margin-bottom: 40px;
     }
 }
 
