@@ -20,6 +20,9 @@ export default new Router({
     {
       path: "/projects/:id", 
       component: Project
+    },
+    {
+      path: "/register", 
     }
   ]
 });
