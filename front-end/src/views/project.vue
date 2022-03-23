@@ -9,14 +9,14 @@
         <div>
           <img :src="`${project.logo}`" alt="Project Logo" id="logo">
           <div>
-            <h2>{{project.name}}</h2>
-            <h3 class="thinner">{{project.bio}}</h3>
-            <h5>{{project.tools}}</h5>
+            <h2>{{ project.name }}</h2>
+            <h3 class="thinner">{{ project.bio }}</h3>
+            <h5>{{ project.tools }}</h5>
           </div>
         </div>
         <div>
           <p>{{project.description}}</p>
-          <a target="_blank" :href="`${project.github}`" class="button"><span><img src="static/github_mint.svg" alt="Github Project Link icon">View on Github</span></a>
+          <a target="_blank" :href="`${project.github}`" class="githubBtn"><span><img src="static/github_mint.svg" alt="Github Project Link icon"></span>View on Github</a>
         </div>
       </div>
       <img :src="`${project.mockup}`" alt="Project IPhone XR Mockup">

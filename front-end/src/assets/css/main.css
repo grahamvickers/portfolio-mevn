@@ -53,6 +53,7 @@ h5 {
   color: #8892b0;
   font-family: roboto-mono, monospace;
   font-size: 16px;
+  line-height: 24px;
   font-weight: 400;
   font-style: normal;
 }
@@ -361,12 +362,17 @@ select {
 .thinner {
   font-weight: 400;
   font-size: 18px;
+  color: #8892b0;
 }
 
 .project {
   margin-bottom: 40px;
   padding: 20px;
   background-color: #233554;
+}
+
+.project div {
+  bottom: 0;
 }
 
 .project img {
@@ -405,6 +411,41 @@ select {
 
 .routerCon {
   margin-bottom: 15px;
+}
+
+.githubBtn {
+  margin-top: 20px;
+  padding: 10px 30px;
+  background-color: transparent;
+  border: 2px solid #64ffda;
+  border-radius: 5px;
+  color: #64ffda;
+  font-family: poppins, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  font-style: normal;
+  margin-bottom: 30px;
+  text-decoration: none;
+  -webkit-transition: ease-in-out .2s;
+  transition: ease-in-out .2s;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 150px;
+}
+
+.githubBtn:hover {
+  cursor: pointer;
 }
 
 @media screen and (min-width: 760px) {
@@ -500,7 +541,7 @@ select {
   }
   #socialBar hr {
     height: 100px;
-    width: 2px;
+    width: 0.5px;
     border: none;
     background-color: #a8b2d1;
     padding-bottom: 5px;
@@ -533,7 +574,6 @@ select {
     font-size: 14px;
     font-weight: 400;
     font-style: normal;
-    margin-bottom: 30px;
     text-decoration: none;
     -webkit-transition: ease-in-out .2s;
     transition: ease-in-out .2s;
@@ -544,12 +584,13 @@ select {
   }
   #emailBar hr {
     height: 100px;
-    width: 2px;
+    width: 0.5px;
     border: none;
     background-color: #a8b2d1;
   }
   .container {
-    margin-bottom: 200px;
+    padding-bottom: 120px;
+    padding-top: 160px;
   }
   #landing {
     margin-bottom: 240px;
@@ -607,9 +648,23 @@ select {
   }
   #projectCon .project {
     width: 260px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
   }
   #projectCon .project img {
     max-width: 260px;
+    float: left;
   }
 }
 

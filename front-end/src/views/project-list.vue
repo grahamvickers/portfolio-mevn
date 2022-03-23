@@ -2,15 +2,16 @@
   <div>
     <section id="landing">
       <h2 class="hidden">Landing Content</h2>
-      <div>
-        <h6 id="intro">Hi, my name is</h6>
-        <h2>Graham Vickers.</h2>
-        <h2 class="darker">Creating lasting impressions is what I do.</h2>
-        <p>
-          I'm a <span class="brighter">full-stack developer</span> who specializes in designing and developing full scale interactive web applications. Currently, I'm finishing my final year at <span class="brighter">Fanshawe College in the Interactive Media Specialist</span> program and now open to new work opportunities.   
-        </p>
-        <button>Checkout my work!</button>
-      </div>
+        <div >
+          <h6 id="intro">Hi, my name is</h6>
+          <h2>Graham Vickers.</h2>
+          <h2 class="darker">Creating lasting impressions is what I do.</h2>
+          <p>
+            I'm a <span class="brighter">full-stack developer</span> who specializes in designing and developing full scale interactive web applications. Currently, I'm finishing my final year at <span class="brighter">Fanshawe College in the Interactive Media Specialist</span> program and now open to new work opportunities.   
+          </p>
+          <button>Checkout my work!</button>
+        </div>
+      
     </section>
 
     <section id="about" class="container">
@@ -89,10 +90,12 @@
       <div id="projectCon">
         <div v-for="project in projects" v-bind:key="project.id" class="project">
           <img :src="`${project.logo}`" alt="Project Logo">
-          <h4>{{project.name}}</h4>
-          <h4 class="thinner">{{project.bio}}</h4>
-          <h5>{{project.tools}}</h5>
-          <div class="routerCon"><router-link :to="`/projects/${project._id}`" class="routerLink"> Read More</router-link></div>
+          <div>
+            <h4>{{ project.name }}</h4>
+            <h4 class="thinner">{{ project.bio }}</h4>
+            <h5>{{ project.tools }}</h5>
+            <div class="routerCon"><router-link :to="`/projects/${project._id}`" class="routerLink"> Read More</router-link></div>
+          </div>
         </div>
       </div>
     </section>
@@ -100,7 +103,12 @@
 </template>
 
 <script>
+// import gsap from 'gsap'
+
+
   export default {
-    props: ["projects"]
+    props: ["projects"],
+
+    
   }
 </script>
