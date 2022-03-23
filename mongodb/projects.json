@@ -19,11 +19,11 @@
     },
     {
         "name": "Meta World",
-        "bio": "Live Crypto Market Monitoring app",
+        "bio": "Live Crypto Market app",
         "tools": "Express, Vue.js, Node.js, Sass, CoinGecko API, VS Code, Adobe XD",
         "description": "lets update this later",
         "logo": "static/meta_logo.svg",
-        "mockup": "static/meta_mockup.svg",
+        "mockup": "static/meta_mockup.png",
         "github": "https://github.com/grahamvickers/crypto-market-api"
     }
 ]

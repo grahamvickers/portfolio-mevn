@@ -24,11 +24,11 @@
             <div class="overlay-con">
                 <ul>
                     <li><a href="/">Home</a></li>
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Education</a></li>
-                    <li><a href="#">Projects</a></li>
-                    <li><a href="#">Contact</a></li>
-                    <li><a href="/uploads/graham_vickers_resume.pdf" >Resume</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a target="_blank" href="/uploads/graham_vickers_resume.pdf" >Resume</a></li>
                 </ul>
             </div>
         </div>
@@ -52,7 +52,11 @@
     </div>
     <main >
         
-        <router-view v-bind:projects="theProjects"/>
+        <router-view v-slot="{ Component }" v-bind:projects="theProjects" >
+            <transition name="route" mode="out-in">
+                <component :is="Component" />
+            </transition>
+        </router-view>
 
         <section id="contact">
             <div class="secHeading">
@@ -72,6 +76,7 @@
 
 <script>
 import axios from "axios";
+
 export default {
   name: "app",
   data() {
@@ -85,5 +90,20 @@ export default {
     });
   }
 };
+
+
 </script>
+
+<style lang="css">
+    .route-enter-from,
+    .route-leave-to {
+        opacity: 0;
+        transform: translateX(500px);
+    }
+
+    .route-enter-active,
+    .route-leave-active {
+        transition: opacity 3s ease-out;
+    }
+</style>
 
