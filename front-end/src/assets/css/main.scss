@@ -318,7 +318,10 @@ select{
 }
 
 #headshot{
-    margin-left: 40px;
+    // margin-left: 40px;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
 }
 
 // education styles below
@@ -463,7 +466,7 @@ select{
         display: flex;
         flex-direction: row;
         #headshot{
-            padding: 0px;
+            padding-left: 30px;
             height: 376px !important;
             width: 345px !important;
         }

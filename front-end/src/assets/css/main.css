@@ -340,7 +340,13 @@ select {
 }
 
 #headshot {
-  margin-left: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 0 auto;
 }
 
 .programDesc {
@@ -512,7 +518,7 @@ select {
             flex-direction: row;
   }
   #aboutCon #headshot {
-    padding: 0px;
+    padding-left: 30px;
     height: 376px !important;
     width: 345px !important;
   }
