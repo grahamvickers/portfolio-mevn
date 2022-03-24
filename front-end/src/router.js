@@ -4,6 +4,7 @@ import Router from "vue-router";
 //must import components used for routes
 import ProjectList from "./views/project-list.vue";
 import Project from "./views/project.vue";
+import Register from "./views/register.vue";
 
 Vue.use(Router);
 
@@ -23,6 +24,7 @@ export default new Router({
     },
     {
       path: "/register", 
+      component: Register
     }
   ]
 });

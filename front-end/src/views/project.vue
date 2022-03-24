@@ -75,8 +75,9 @@ section{
     flex-direction: row;
     justify-content: space-between;
     padding-bottom: 160px;
-    img{
-      padding-left: 20px;
+    #mockup{
+      padding-left: 30px;
+      height: auto;
     }
   }
 }
