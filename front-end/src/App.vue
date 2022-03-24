@@ -2,7 +2,9 @@
 <div>
     <h1 class="hidden">Graham Vickers Portfolio Website</h1>
     <header>
+        <router-link :to="`/`">
         <img src="/static/logo_v2.svg" alt="Graham Vickers Developments Logo" id="logo">
+        </router-link>
         <span id="hmbgrMenu" style="font-size:30px;cursor:pointer;color: #64ffda;" onclick="showNav()"><img src="/static/navBtn.svg"></span>
         <div id="navCon">
             <nav id="mainNav">
