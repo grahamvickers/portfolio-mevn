@@ -4,7 +4,7 @@
           <h3>Featured Project</h3>
           <hr>
     </div>
-    <section>
+    <section id="featured">
       <div>
         <div>
           <img :src="`${project.logo}`" alt="Project Logo" id="logo">
@@ -23,6 +23,16 @@
       
       
         
+    </section>
+
+    <section id="contact">
+        <div class="secHeading">
+            <h3>Let's Work Together</h3>
+            <hr>
+        </div>
+        <h6>Send me an email!</h6>
+        <p>I'm currently open to new work opportunities and freelance projects. Have an opening or a new idea you want to come to life? Just send me a message and I'll get back to as soon as I can!</p>
+        <a target="_blank" href="mailto:vickgrah@gmail.com" class="button">Send Me an Email!</a>
     </section>
 
   </div>
@@ -59,7 +69,7 @@ export default {
 h2,h3,h5{
   padding-bottom: 10px;
 }
-section{
+#featured{
   margin-bottom: 80px;
   #mockup{
     display: flex;
@@ -70,7 +80,7 @@ section{
 
 
 @media screen and (min-width: 1200px) {
-  section{
+  #featured{
     display: flex;
     flex-direction: row;
     justify-content: space-between;

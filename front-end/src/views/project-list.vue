@@ -99,6 +99,16 @@
         </div>
       </div>
     </section>
+
+    <section id="contact">
+            <div class="secHeading">
+                <h3>Let's Work Together</h3>
+                <hr>
+            </div>
+            <h6>Send me an email!</h6>
+            <p>I'm currently open to new work opportunities and freelance projects. Have an opening or a new idea you want to come to life? Just send me a message and I'll get back to as soon as I can!</p>
+            <a target="_blank" href="mailto:vickgrah@gmail.com" class="button">Send Me an Email!</a>
+    </section>
   </div>
 </template>
 

@@ -58,15 +58,7 @@
             </transition>
         </router-view>
 
-        <section id="contact">
-            <div class="secHeading">
-                <h3>Let's Work Together</h3>
-                <hr>
-            </div>
-            <h6>Send me an email!</h6>
-            <p>I'm currently open to new work opportunities and freelance projects. Have an opening or a new idea you want to come to life? Just send me a message and I'll get back to as soon as I can!</p>
-            <a target="_blank" href="mailto:vickgrah@gmail.com" class="button">Send Me an Email!</a>
-        </section>
+        
     </main>
 
     <footer>
@@ -75,6 +67,7 @@
             <a target="_blank" href="https://www.linkedin.com/in/grahamvickers/"><img src="/static/linkedin.svg" alt="LinkedIn social link button"></a>
             <a target="_blank" href="https://github.com/grahamvickers"><img src="/static/github.svg" alt="Github social link button"></a>
         </div>
+        <router-link :to="`/portal`" id="portalBtn">Client Portal</router-link>
     </footer>
     
 </div>
