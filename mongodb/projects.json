@@ -12,7 +12,7 @@
         "name": "Get Smokin'",
         "bio": "Recipe and Blog website",
         "tools": "Mongoose, Express, Vue.js, Node.js, Sass, VS Code, Adobe XD",
-        "description": "lets update this later",
+        "description": "I created Get Smoking'  as a passion project out of my love and drive to create authentic southern barbecue with my own spin on the dishes. This website is for like minded people who want to make awesome bbq for their friends and family. Here you can find a wide variety of recipes including pork, fish, poultry and beef, these are all recipes I have created over the past few years of cooking. Users can also access my blog where I share tips and tricks to mastering the pit.",
         "logo": "static/smokin_logo.svg",
         "mockup": "static/smokin_mockup.png",
         "github": "https://github.com/grahamvickers/get_smokin"
@@ -21,7 +21,7 @@
         "name": "Meta World",
         "bio": "Live Crypto Market app",
         "tools": "Express, Vue.js, Node.js, Sass, CoinGecko API, VS Code, Adobe XD",
-        "description": "lets update this later",
+        "description": "I designed and developed Meta World to further my knowledge of implementing open REST API’s into a Vue.js application. This app utilizes the CoinGecko API and renders the live market data to the front-end of the application. Users can also click and view more live market information about the selected currency. My strong passion about economics and stock markets is what I believe let to the success to this application.",
         "logo": "static/meta_logo.svg",
         "mockup": "static/meta_mockup.png",
         "github": "https://github.com/grahamvickers/crypto-market-api"
