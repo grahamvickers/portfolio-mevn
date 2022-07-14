@@ -1,6 +1,6 @@
-![](/public/images/bizznet_logo.svg)
+![](/public/images/logo.svg)
 
-# Bizz.Net - Interactive Media Specialist Thesis Project
+# Graham Vicker Web Development Portfolio
 
 With this application I have created my own personal web development portfolio utilizing the MEVN stack and using Docker to run the local server.
 
