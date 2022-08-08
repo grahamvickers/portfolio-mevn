@@ -1,5 +1,6 @@
 import Vue from "vue";
 import Router from "vue-router";
+// import Vue from "vuex";
 
 //must import components used for routes
 import ProjectList from "./views/project-list.vue";
